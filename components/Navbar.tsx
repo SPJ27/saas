@@ -3,7 +3,7 @@ import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 const Navbar = () => {
   return (
     <>
-      <div className=" h-16 w-full px-24 items-center flex">
+      <div className="shadow-sm h-16 w-full px-24 items-center flex bg-white">
         {/* <h1 className="font-medium mr-5">Tokens: 5</h1> */}
         <div className=" ">
           <a
@@ -30,6 +30,7 @@ const Navbar = () => {
         </div>
       </div>
       <hr />
+      
     </>
   );
 };
