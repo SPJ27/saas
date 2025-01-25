@@ -29,7 +29,7 @@ const Navbar = () => {
           </SignedIn>
         </div>
       </div>
-      <hr />
+      <hr className="h-[2px]"/>
       
     </>
   );
