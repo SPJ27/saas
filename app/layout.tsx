@@ -25,13 +25,14 @@ export default function RootLayout({
         <body className={`${inter.className} antialiased bg-[#ecedef]`}>
           <Navbar />
           {children}
-        </body>
-        <script
+          <script
   defer
   data-website-id="yourwebsiteid"
   data-domain="yourdomain.com"
   src="/js/script.js"
 ></script>
+        </body>
+        
       </html>
     </ClerkProvider>
   );
