@@ -26,7 +26,7 @@ export default function RootLayout({
         <script
   defer
   data-website-id="67add248028d90b99a518483"
-  data-domain="https://saas-psi-livid.vercel.app"
+  data-domain="saas-psi-livid.vercel.app"
   src="https://datafa.st/js/script.js">
 </script>
         </head>
