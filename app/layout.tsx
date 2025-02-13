@@ -22,15 +22,16 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={`${inter.className} antialiased bg-[#ecedef]`}>
-          <Navbar />
-          {children}
-          <script
+        <head><script
   defer
   data-website-id="67add248028d90b99a518483"
   data-domain="saas-psi-livid.vercel.app"
   src="https://datafa.st/js/script.js">
-</script>
+</script></head>
+        <body className={`${inter.className} antialiased bg-[#ecedef]`}>
+          <Navbar />
+          {children}
+          
         </body>
         
       </html>
