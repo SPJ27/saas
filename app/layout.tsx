@@ -27,10 +27,10 @@ export default function RootLayout({
           {children}
           <script
   defer
-  data-website-id="yourwebsiteid"
-  data-domain="yourdomain.com"
-  src="/js/script.js"
-></script>
+  data-website-id="67add248028d90b99a518483"
+  data-domain="saas-psi-livid.vercel.app"
+  src="https://datafa.st/js/script.js">
+</script>
         </body>
         
       </html>
